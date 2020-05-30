@@ -1,13 +1,15 @@
-# Sample_Package  ![spm | sample](https://img.shields.io/badge/spm-sample-blue)
-A sample package repository used in the Package Manager.
+# Perlin Noise
 
+### Function:
+``PerlinNoise.new({X,Y,Z,W}, amplitude, octaves, persistence)``
+
+Coordinates are all 0 by default, amplitude is 10 by default, octaves are 1 by default and persistence is .5 by default.
 
 #### Usage:
 ```lua
-local require = require(game.ReplicatedStorage:WaitForChild("PackageManager").Load)
-local Sample = require("sample")
+local PerlinNoise = require(game.ReplicatedStorage:WaitForChild("PerlinNoise"))
 
-Sample.Print("Hello, world!")
+print(PerlinNoise.new({5.5,45,21,6.32}, 15, 3, 0.5))
 ```
 
-` > Hello, world!`
+` > 0.056077744190892`
