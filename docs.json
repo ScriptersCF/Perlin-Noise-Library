@@ -1,10 +1,6 @@
 {
-    "Print": {
-        "Usage": "sample.Print(msg)",
-        "Description": "Prints the provided message."
-    },
-    "Warn": {
-        "Usage": "sample.Warn(msg)",
-        "Description": "Warns the provided message."
+    "new": {
+        "Usage": "PerlinNoise.new({X,Y,Z,W},amplitude,octaves,persistence)",
+        "Description": "Returns a number between -0.5 and 0.5 for the provided coordinates."
     }
 }
